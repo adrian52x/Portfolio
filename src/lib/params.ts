@@ -12,8 +12,8 @@ export const NavBar: NavBarParams = {
 
 export const Home: HomeParams = {
   title: 'Home Page',
-  name: 'Name',
-  lastName: 'LASTNAME',
+  name: 'Adrian',
+  lastName: 'Enachi',
   description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
   links: {
     github: 'https://github.com/',
@@ -32,12 +32,66 @@ export const PersonalProjects: PersonalProjectsParams = {
       description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
       links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
       logo: Assets.Svelte,
+      name: "Personal Portfolio",
+      period: {
+        from: new Date()
+      },
+      images: [  ],
+      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.TypeScript, Technologies.CSS, Technologies.Tailwind],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.Svelte,
+      name: "Digital Floor Plan 2D",
+      period: {
+        from: new Date()
+      },
+      images: [ "FloorPlan/home.jpg", "FloorPlan/buildings.jpg", "FloorPlan/vat83a.jpg", "FloorPlan/4th floor.jpg", "FloorPlan/import.jpg", "FloorPlan/export.jpg" ],
+      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.Svelte,
       name: "Car Parking Booking System",
       period: {
         from: new Date()
       },
       images: [ "OAK/OAK-home.jpg", "OAK/OAK-map.jpg", "OAK/OAK-map2.jpg", "OAK/OAK-parkingSlots.jpg", "OAK/OAK-profile.jpg", "OAK/OAK-chat.jpg" ],
-      technologies: [Technologies.Svelte, Technologies.TypeScript],
+      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
+      type: "Website Template"
+    },
+
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.Svelte,
+      name: "Webshop",
+      period: {
+        from: new Date()
+      },
+      images: [ "webshop/1.png", "webshop/2.png", "webshop/3.png", "webshop/4.png", "webshop/5.png", ],
+      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.MongoDB],
+      type: "Website Template"
+    },
+
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.JavaScript,
+      name: "Cinema App",
+      period: {
+        from: new Date()
+      },
+      images: [  ],
+      technologies: [Technologies.Java, Technologies.JavaScript, Technologies.HTML, Technologies.CSS],
       type: "Website Template"
     },
 
@@ -45,14 +99,40 @@ export const PersonalProjects: PersonalProjectsParams = {
       color: '#ff3e00',
       description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
       links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-      logo: Assets.Svelte,
+      logo: Assets.Java,
       name: "C19 Test Center",
       period: {
         from: new Date(),
 
       },
-      images: [ "C19/C19-home.png" ],
-      technologies: [Technologies.Svelte, Technologies.ExpressJs],
+      images: [ "C19/C19-home.png", "C19/C19-appointment.png", "C19/C19-manage.png", "C19/C19-profile.png",  ],
+      technologies: [Technologies.Java, Technologies.HTML, Technologies.CSS],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.VueJs,
+      name: "Pokemon App",
+      period: {
+        from: new Date()
+      },
+      images: [ "pokemonApp/1.png", "pokemonApp/2.png", ],
+      technologies: [Technologies.VueJs, Technologies.JavaScript, Technologies.CSS],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+      logo: Assets.Python,
+      name: "Image Classifier (Handwritten digits)",
+      period: {
+        from: new Date()
+      },
+      images: [ "ML/1.png" ],
+      technologies: [Technologies.Python, Technologies.HTML],
       type: "Website Template"
     },
   ]

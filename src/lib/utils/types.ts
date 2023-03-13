@@ -42,7 +42,7 @@ export interface Project {
   technologies: Array<Technology>;
   links: Array<ProjectLink>;
 }
-
+ 
 export interface Link {
   to: string;
   title: string;
