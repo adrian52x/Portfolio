@@ -27,7 +27,7 @@ export const PersonalProjects: PersonalProjectsParams = {
   items: [
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["The Floor Plan system is a web-based interface developed for AGC Biologics (still in progress).", "Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "2D Reactive Map of building's floors", "Map Integration", "Data processing: Excel -> JSON & vice-versa"],
       links: [{ to: 'https://github.com/adrian52x/Floor-Plan', label: 'Frontend' }, { to: 'https://github.com/adrian52x/Floor-Plan_backend', label: 'Backend' }],
       logo: Assets.Svelte,
       name: "Digital Floor Plan 2D",
@@ -40,7 +40,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: [ "Group project (3)", "Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "Authorization & Authentication", "Others: Nodemailer, Map integration, Socket.io (for real time chat)"],
       links: [{ to: 'https://github.com/adrian52x/OAK', label: 'GitHub' }],
       logo: Assets.Svelte,
       name: "Car Parking Booking System",
@@ -55,7 +55,7 @@ export const PersonalProjects: PersonalProjectsParams = {
 
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "Authorization & Authentication", "Others: Nodemailer"],
       links: [{ to: 'https://github.com/adrian52x/webshop-fullstack', label: 'GitHub' }],
       logo: Assets.Svelte,
       name: "Webshop",
@@ -70,7 +70,7 @@ export const PersonalProjects: PersonalProjectsParams = {
 
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["Frontend: Vanilla JavaScript, HTML, CSS", "Backend: Java, Springboot, JPA", "Database: MySQL", "CI/CD: Jenkins, Docker, AWS EC2"],
       links: [{ to: 'https://github.com/adrian52x/cinema-app', label: 'Backend' }, { to: 'https://github.com/KrishnaKEA/Kodak-Frontend-Cinemaxx', label: 'Frontend' }],
       logo: Assets.JavaScript,
       name: "Cinema App",
@@ -84,7 +84,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["Current project your viewing", "Technologies: Svelte, JavaScript, TypeScript, Tailwindcss"],
       links: [{ to: 'https://github.com/adrian52x/Portfolio', label: 'GitHub' }],
       logo: Assets.Svelte,
       name: "Personal Portfolio",
@@ -98,7 +98,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["Frontend: Thymeleaf, HTML, CSS", "Backend: Java, Springboot, JPA", "Database: MySQL", "Full CRUD app"],
       links: [{ to: 'https://github.com/adrian52x/C19-Test-Center', label: 'GitHub' }],
       logo: Assets.Java,
       name: "C19 Test Center",
@@ -113,7 +113,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["Used a pulbic API to build a Pokemon App with VueJS that displays data in a nice way"],
       links: [{ to: 'https://github.com/adrian52x/app', label: 'GitHub' }],
       logo: Assets.VueJs,
       name: "Pokemon App",
@@ -127,7 +127,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+      description: ["This project is a machine learning application that uses Convolutional Neural Networks (CNN) to recognize and classify handwritten digits. The application has been built using the Keras and TensorFlow frameworks in Python.", "Flask, a web application framework, has been used to create a user interface for the application."],
       links: [{ to: 'https://github.com/adrian52x/Neural-network-image-classifier', label: 'GitHub' }],
       logo: Assets.Python,
       name: "Image Classifier (Handwritten digits)",

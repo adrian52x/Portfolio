@@ -40,7 +40,11 @@
 		<!-- <p class="project-card-type">{project.type}</p> -->
 		<p class="project-card-period">{period}</p>
 	</div>
-	<p class="project-card-description">{project.description}</p>
+	<p class="project-card-description">
+		{#each project.description as description}
+			<li>{description}</li>
+		{/each}
+	</p>
 	<div class="project-card-bottom">
 		<Chip label={from} />
 		{#if from !== to}

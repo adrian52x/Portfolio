@@ -37,7 +37,7 @@ export interface Project {
     from: Date;
     to?: Date;
   };
-  description: string;
+  description: Array<string>;
   images: Array<string>;
   technologies: Array<Technology>;
   links: Array<ProjectLink>;
