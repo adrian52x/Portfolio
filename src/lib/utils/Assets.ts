@@ -45,6 +45,7 @@ import Csharp from '$lib/assets/logos/csharp.svg';
 import Xamarin from '$lib/assets/logos/xamarin.svg';
 import AE from '$lib/assets/logos/ae.jpg';
 import AE2 from '$lib/assets/logos/ae2.avif';
+import AE3 from '$lib/assets/logos/ae3.png';
 
 export default {
   Csharp,
@@ -85,5 +86,6 @@ export default {
   Illustrator,
   Nuxt,
   AE,
-  AE2
+  AE2,
+  AE3
 };

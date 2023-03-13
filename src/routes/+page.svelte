@@ -26,7 +26,7 @@
 </svelte:head>
 <div class="home">
 	<div class="home-section">
-		<h1 class="home-title"><CardLogo alt='logo' src={Assets.AE2} size={50} radius={'0'}/> {name} {lastName.toUpperCase()}, </h1>
+		<h1 class="home-title"><CardLogo alt='logo' src={Assets.AE3} size={50} radius={'0'}/> {name} {lastName.toUpperCase()}, </h1>
 		<p class="home-subtitle">{description}</p>
 		<div class="home-social">
 			{#each links as link}

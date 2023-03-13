@@ -14,7 +14,7 @@ export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+  description: 'TO DO: add missing icons for technologies, add links, add projects descriptions, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
   links: {
     github: 'https://github.com/',
     linkedin: 'https://www.linkedin.com/',
@@ -96,7 +96,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
 
     {
-      color: '#ff3e00',
+      color: '#1181d1',
       description: 'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
       links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
       logo: Assets.Java,
