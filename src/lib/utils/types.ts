@@ -13,7 +13,7 @@ export interface Experience {
     to?: Date;
   };
   industry: string;
-  description: string;
+  description: Array<string>;
   skills: Array<Technology>;
 }
 

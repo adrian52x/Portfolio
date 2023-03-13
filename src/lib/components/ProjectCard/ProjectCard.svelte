@@ -36,10 +36,10 @@
 		</div>
 	</div>
 	<CardDivider />
-	<!-- <div class="project-card-mid">
-		<p class="project-card-type">{project.type}</p>
+	<div class="project-card-mid">
+		<!-- <p class="project-card-type">{project.type}</p> -->
 		<p class="project-card-period">{period}</p>
-	</div> -->
+	</div>
 	<p class="project-card-description">{project.description}</p>
 	<div class="project-card-bottom">
 		<Chip label={from} />
@@ -77,8 +77,8 @@
 
 		{:else}
 
-			
-		<div> No images</div>
+		<img class="image-showcase" src="/no-image2.jpg" alt="">	
+		
 		
 
 		{/if}

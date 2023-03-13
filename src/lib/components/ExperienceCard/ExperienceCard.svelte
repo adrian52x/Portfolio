@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Experience } from '$lib/utils';
 	import { countMonths, getMonthName } from '$lib/utils/helpers';
+	import { each } from 'svelte/internal';
 	import Card from '../Card/Card.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -32,7 +33,11 @@
 			<span class="experience-company-name">{experience.company.name}</span>
 			<div class="experience-period">{period}</div>
 			<div class="experience-location">{experience.location}</div>
-			<div class="experience-description">{experience.description}</div>
+			<div class="experience-description">
+				{#each experience.description as description}
+					<li>{description}</li>
+				{/each}
+			</div>
 			<div class="experience-skills">
 				{#each experience.skills as skill}
 					<ChipIcon logo={skill.logo} name={skill.name} inverted={skill.inverted} />

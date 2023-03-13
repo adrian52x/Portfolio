@@ -14,11 +14,11 @@
 <MainTitle>{title}</MainTitle>
 <div class="resume">
 	{#if cv}
-		<a href={cv}>
-			<Chip label="Download" size={'1.25em'} />
+		<a href={cv} target="_blank">
+			<Chip label="Click" size={'1.25em'} />
 		</a>
 	{:else}
-		<Chip label="Ooops! no CV at the moment. You should input your cv link in $lib/Params.ts" />
+		<Chip label="Ooops! no CV at the moment." />
 	{/if}
 </div>
 

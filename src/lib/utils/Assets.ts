@@ -46,6 +46,17 @@ import Xamarin from '$lib/assets/logos/xamarin.svg';
 import AE from '$lib/assets/logos/ae.jpg';
 import AE2 from '$lib/assets/logos/ae2.avif';
 import AE3 from '$lib/assets/logos/ae3.png';
+import MySQL from '$lib/assets/logos/mysql.png';
+import SpringBoot from '$lib/assets/logos/springboot.png';
+import Thymeleaf from '$lib/assets/logos/thymeleaf.png';
+import Flask from '$lib/assets/logos/flask.png';
+import ML from '$lib/assets/logos/ML.jpg';
+import Docker from '$lib/assets/logos/docker.png';
+import Jenkins from '$lib/assets/logos/jenkins.png';
+import Aws from '$lib/assets/logos/aws.png';
+import AgcBio from '$lib/assets/logos/agcbio.jpeg';
+import NewBanking from '$lib/assets/logos/newbanking.jpeg';
+
 
 export default {
   Csharp,
@@ -87,5 +98,16 @@ export default {
   Nuxt,
   AE,
   AE2,
-  AE3
+  AE3,
+  MySQL,
+  Thymeleaf,
+  SpringBoot,
+  Flask,
+  ML,
+  Aws,
+  Jenkins,
+  Docker,
+  AgcBio,
+  NewBanking
+
 };

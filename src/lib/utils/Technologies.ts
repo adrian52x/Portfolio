@@ -1,6 +1,14 @@
 import Assets from './Assets';
 
 export default {
+  MySQL: { logo: Assets.MySQL, name: 'MySQL' },
+  SpringBoot: { logo: Assets.SpringBoot, name: 'SpringBoot' },
+  Thymeleaf: { logo: Assets.Thymeleaf, name: 'Thymeleaf' },
+  Flask: { logo: Assets.Flask, name: 'Flask' },
+  ML: { logo: Assets.ML, name: 'Machine Learning' },
+  Aws: { logo: Assets.Aws, name: 'AWS EC2' },
+  Jenkins: { logo: Assets.Jenkins, name: 'Jenkins CI/CD' }, 
+  Docker: { logo: Assets.Docker, name: 'Docker' },
   JavaScript: { logo: Assets.JavaScript, name: 'JavaScript' },
   TypeScript: { logo: Assets.TypeScript, name: 'TypeScript' },
   Dart: { logo: Assets.Dart, name: 'Dart' },
