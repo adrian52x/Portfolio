@@ -117,6 +117,13 @@
 			grid-template-columns: repeat(2, 1fr);
 			gap: 20px;
 			padding: 0px 10px;
+
+			@media (max-width: 1350px) {
+				grid-template-columns: repeat(3, 1fr);
+			}
+			@media (max-width: 850px) {
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		&-mid {

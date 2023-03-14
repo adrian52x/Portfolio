@@ -100,7 +100,7 @@
 			padding: 0px 10px;
 
 			@media (max-width: 1350px) {
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: repeat(1, 1fr);
 			}
 			@media (max-width: 850px) {
 				grid-template-columns: repeat(1, 1fr);
