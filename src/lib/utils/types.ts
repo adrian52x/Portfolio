@@ -76,7 +76,7 @@ export interface NavBarParams {
   home: string,
   personal: string,
   career: string,
-  resume: string,
+  docs: string,
 }
 
 export interface PersonalProjectsParams {
@@ -89,8 +89,9 @@ export interface CareerParams {
   items: Array<Experience>
 }
 
-export interface ResumePageParams {
+export interface DocsPageParams {
   title: string,
   cv: string,
-  diploma: string
+  diploma: string,
+  docsUpdatedOn: Date
 }

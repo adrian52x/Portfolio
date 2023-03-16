@@ -1,5 +1,5 @@
 import { EmploymentType, Technologies, Assets } from "./utils";
-import type { CareerParams, HomeParams, NavBarParams, PersonalProjectsParams, ResumePageParams } from "./utils";
+import type { CareerParams, HomeParams, NavBarParams, PersonalProjectsParams, DocsPageParams } from "./utils";
 
 export const PortfolioTitle = 'AE'
 
@@ -7,7 +7,7 @@ export const NavBar: NavBarParams = {
   home: 'Home',
   personal: 'Personal Projects',
   career: 'Professional Experience',
-  resume: 'CV / Docs',
+  docs: 'CV / Docs',
 }
 
 export const Home: HomeParams = {
@@ -190,8 +190,9 @@ export const ProfessionalCareerParams: CareerParams = {
 ]
 }
 
-export const ResumeParams: ResumePageParams = {
+export const DocsParams: DocsPageParams = {
   title: 'Docs',
   cv: 'docs/Adrian_Enachi_CV.pdf',
-  diploma: 'docs/Adrian_Enachi_Diploma.pdf'
+  diploma: 'docs/Adrian_Enachi_Diploma.pdf',
+  docsUpdatedOn: new Date(2023, 2, 16) // 16 March 2023
 }
