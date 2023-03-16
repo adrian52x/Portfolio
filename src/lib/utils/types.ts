@@ -92,4 +92,5 @@ export interface CareerParams {
 export interface ResumePageParams {
   title: string,
   cv: string,
+  diploma: string
 }

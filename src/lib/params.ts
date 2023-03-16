@@ -7,7 +7,7 @@ export const NavBar: NavBarParams = {
   home: 'Home',
   personal: 'Personal Projects',
   career: 'Professional Experience',
-  resume: 'Resume',
+  resume: 'CV / Docs',
 }
 
 export const Home: HomeParams = {
@@ -191,6 +191,7 @@ export const ProfessionalCareerParams: CareerParams = {
 }
 
 export const ResumeParams: ResumePageParams = {
-  title: 'Resumé',
-  cv: 'docs/Adrian_Enachi_CV.pdf'
+  title: 'Docs',
+  cv: 'docs/Adrian_Enachi_CV.pdf',
+  diploma: 'docs/Adrian_Enachi_Diploma.pdf'
 }
