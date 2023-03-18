@@ -32,7 +32,8 @@
 <style>
 	dialog {
       
-        /* width: 100vh; */
+        
+		height: 80vh;
 		/* max-width: 32em; */
 		border-radius: 0.2em;
 		border: none;

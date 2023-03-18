@@ -1,5 +1,5 @@
 import { EmploymentType, Technologies, Assets } from "./utils";
-import type { CareerParams, HomeParams, NavBarParams, PersonalProjectsParams, ResumePageParams } from "./utils";
+import type { CareerParams, HomeParams, NavBarParams, PersonalProjectsParams, DocsPageParams } from "./utils";
 
 export const PortfolioTitle = 'AE'
 
@@ -7,14 +7,14 @@ export const NavBar: NavBarParams = {
   home: 'Home',
   personal: 'Personal Projects',
   career: 'Professional Experience',
-  resume: 'Resume',
+  docs: 'CV / Docs',
 }
 
 export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'As a computer science graduate with a strong passion for the IT industry, I am highly dedicated and eager to learn. I possess a detail-oriented mindset and am capable of working both independently and in a team. With my strong organizational abilities, I have successfully managed multiple academic projects. Above all, I am committed to utilizing my skills to contribute to the mission of any company and to help others along the way.',
+  description: 'I am a highly motivated computer science graduate with a strong passion for the IT industry, always eager to learn and adapt to new technologies. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team. With my strong organizational abilities, I have successfully managed multiple academic projects, and I am committed to utilizing my skills to contribute to the mission of any company and help others along the way.',
   links: {
     github: 'https://github.com/adrian52x',
     linkedin: 'https://www.linkedin.com/in/adrian-enachi-314955205/'
@@ -190,7 +190,9 @@ export const ProfessionalCareerParams: CareerParams = {
 ]
 }
 
-export const ResumeParams: ResumePageParams = {
-  title: 'Resumé',
-  cv: 'docs/Adrian_Enachi_CV.pdf'
+export const DocsParams: DocsPageParams = {
+  title: 'Docs',
+  cv: 'docs/Adrian_Enachi_CV.pdf',
+  diploma: 'docs/Adrian_Enachi_Diploma.pdf',
+  docsUpdatedOn: new Date(2023, 2, 16) // 16 March 2023
 }
