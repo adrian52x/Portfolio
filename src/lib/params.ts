@@ -160,7 +160,7 @@ export const ProfessionalCareerParams: CareerParams = {
     description: [
       "Day to day IT operation.", 
       "IT end user support 1st level - Talk staff through a series of actions, either face-to-face or over the phone, to help set up systems or resolve issues.",
-      "Device enrollment of mobile phones to our employees.",
+      "Device enrollment of mobile phones/PCs to our employees.",
       "Install and configure computer hardware operating systems and applications.",
       "Troubleshoot system and network problems, diagnosing and solving hardware or software faults."
     ],
