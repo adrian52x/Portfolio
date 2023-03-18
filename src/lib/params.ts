@@ -179,6 +179,7 @@ export const ProfessionalCareerParams: CareerParams = {
       "Unit testing (Jest)",
       "Bug fixing",
       "Learnt new technologies: Vue.js / Bitbucket / CircleCI / Jira ",
+      "Learnt to establish a good communication with UI/UX designer and Product Owner"
     ],
     employmentType: EmploymentType.Internship, 
     industry: 'Software Development',
@@ -194,5 +195,5 @@ export const DocsParams: DocsPageParams = {
   title: 'Docs',
   cv: 'docs/Adrian_Enachi_CV.pdf',
   diploma: 'docs/Adrian_Enachi_Diploma.pdf',
-  docsUpdatedOn: new Date(2023, 2, 16) // 16 March 2023
+  docsUpdatedOn: new Date(2023, 2, 18) // 18 March 2023
 }
