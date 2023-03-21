@@ -9,6 +9,8 @@ import { chromium } from 'playwright';
 // npm install --save-dev @types/node ???
 // npm i pnpm ??
 
+//https://www.okupter.com/blog/e2e-testing-with-sveltekit-and-playwright
+
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
