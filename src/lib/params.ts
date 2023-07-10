@@ -14,7 +14,7 @@ export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'I am a highly motivated computer science graduate with a strong passion for the IT industry, always eager to learn and adapt to new technologies. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team. With my strong organizational abilities, I have successfully managed multiple academic projects, and I am committed to utilizing my skills to contribute to the mission of any company and help others along the way.',
+  description: 'I am a highly motivated computer scientist graduate with a strong passion for the IT industry, always eager to learn and adapt to new technologies. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team. With my strong organizational abilities, I have successfully managed multiple academic projects, and I am committed to utilizing my skills to contribute to the mission of any company and help others along the way.',
   links: {
     github: 'https://github.com/adrian52x',
     linkedin: 'https://www.linkedin.com/in/adrian-enachi-314955205/'
@@ -27,7 +27,7 @@ export const PersonalProjects: PersonalProjectsParams = {
   items: [
     {
       color: '#1181d1',
-      description: ["Simplified and more advanced version", "Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "Interactive 2D floor plan (more advanced in version 2)", "Departments view", "Data visualization of each room", "Reactive / real-time search functionality: Based on search input, it will give a list instruments that are located on that specific floor and will highlight the rooms that contains those instruments.", "Refactored database"],
+      description: ["Simplified and more advanced version", "Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "Interactive 2D floor plan (more advanced in version 2)", "Departments view", "Data visualization of each room", "Reactive / real-time search functionality: Based on search input, it will give a list of instruments that are located on that specific floor and will highlight the rooms that contains those instruments.", "Refactored database"],
       links: [{ to: 'https://github.com/adrian52x/Floor-plan_v2', label: 'Frontend' }, { to: 'https://github.com/adrian52x/Floor-Plan_backend', label: 'Backend' }],
       logo: Assets.Svelte,
       name: "Digital Floor Plan 2D v2",
@@ -46,7 +46,7 @@ export const PersonalProjects: PersonalProjectsParams = {
       name: "Digital Floor Plan 2D v1",
       period: {
         from: new Date(2023, 1),
-        to: new Date(2022, 4)
+        to: new Date(2023, 4)
       },
       images: [ "FloorPlan/home.jpg", "FloorPlan/buildings.jpg", "FloorPlan/vat83a.jpg", "FloorPlan/4th floor.jpg", "FloorPlan/import.jpg", "FloorPlan/export.jpg" ],
       technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
@@ -207,7 +207,7 @@ export const ProfessionalCareerParams: CareerParams = {
 
 export const DocsParams: DocsPageParams = {
   title: 'Docs',
-  cv: 'docs/CV_Adrian-Enachi.pdf',
+  cv: 'docs/Adrian_Enachi_CV_.pdf',
   diploma: 'docs/Adrian_Enachi_Diploma.pdf',
   docsUpdatedOn: new Date(2023, 6, 1) // 18 March 2023
 }
