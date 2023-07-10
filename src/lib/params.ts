@@ -167,7 +167,7 @@ export const ProfessionalCareerParams: CareerParams = {
     location: 'Denmark',
     period: { from: new Date(2023, 1) },
     skills: [Technologies.JavaScript, Technologies.Svelte, Technologies.NodeJs, Technologies.Tailwind, Technologies.MongoDB],
-    title: 'Freelancer'
+    title: 'Software developer'
   },
   {
     company: { logo: Assets.AgcBio, name: 'AGC Biologics' },
@@ -183,7 +183,7 @@ export const ProfessionalCareerParams: CareerParams = {
     location: 'Soeborg, Denmark',
     period: { from: new Date(2022, 2) },
     skills: [],
-    title: 'Student IT Assistant'
+    title: 'IT Support'
   },
   {
     company: { logo: Assets.NewBanking, name: 'NewBanking Identity' },
