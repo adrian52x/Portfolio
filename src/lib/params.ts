@@ -207,7 +207,7 @@ export const ProfessionalCareerParams: CareerParams = {
 
 export const DocsParams: DocsPageParams = {
   title: 'Docs',
-  cv: 'docs/Adrian_Enachi_CV.pdf',
+  cv: 'docs/CV_Adrian-Enachi.pdf',
   diploma: 'docs/Adrian_Enachi_Diploma.pdf',
   docsUpdatedOn: new Date(2023, 6, 1) // 18 March 2023
 }
