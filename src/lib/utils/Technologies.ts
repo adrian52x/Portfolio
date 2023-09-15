@@ -44,6 +44,8 @@ export default {
   Photoshop: { logo: Assets.Photoshop, name: 'Adobe Photoshop' },
   Illustrator: { logo: Assets.Illustrator, name: 'Adobe Illustrator' },
   AfterEffects: { logo: Assets.AfterEffects, name: 'Adobe After Effects' },
-  Premiere: { logo: Assets.Premiere, name: 'Adobe Premiere Pro' }
+  Premiere: { logo: Assets.Premiere, name: 'Adobe Premiere Pro' },
+  Nginx: { logo: Assets.Electron, name: 'Nginx' },
+  PM2: { logo: "", name: 'PM2' },
 };
 

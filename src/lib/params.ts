@@ -27,15 +27,27 @@ export const PersonalProjects: PersonalProjectsParams = {
   items: [
     {
       color: '#1181d1',
-      description: ["Simplified and more advanced version", "Frontend: Svelte, HTML, Tailwindcss", "Backend: NodeJS, ExpressJS", "Database: MongoDB", "Interactive 2D floor plan (more advanced in version 2)", "Departments view", "Data visualization of each room", "Reactive / real-time search functionality: Based on search input, it will give a list of instruments that are located on that specific floor and will highlight the rooms that contains those instruments.", "Refactored database"],
+      description: [
+        "Frontend: Svelte, HTML, Tailwindcss", 
+        "Backend: NodeJS, ExpressJS", 
+        "Database: MongoDB",
+        "Other tools: Ubuntu, NGINX, PM2, Lunacy(UI/UX) ",
+        "", "Features", "",
+        "Interactive 2D floor plan",  
+        "Departments view", 
+        "Admin panel - CRUD for all entities", 
+        "Data visualization of each room & add/remove items in the room", 
+        "Reactive / real-time search functionality: Based on search input, it will give a list of instruments that are located on that specific floor and will highlight the rooms that contains those instruments.", 
+        "Etc. ..."
+        ],
       links: [{ to: 'https://github.com/adrian52x/Floor-plan_v2', label: 'Frontend' }, { to: 'https://github.com/adrian52x/Floor-Plan_backend', label: 'Backend' }],
       logo: Assets.Svelte,
       name: "Digital Floor Plan 2D v2",
       period: {
         from: new Date(2023, 4)
       },
-      images: [ "FloorPlanV2/Home.jpg", "FloorPlanV2/83b-2.jpg", "FloorPlanV2/departments.jpg", "FloorPlanV2/search.jpg"],
-      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
+      images: [ "FloorPlanV2/10.JPG", "FloorPlanV2/1.JPG", "FloorPlanV2/2.JPG", "FloorPlanV2/3.JPG", "FloorPlanV2/4.jpg", "FloorPlanV2/5.JPG", "FloorPlanV2/6.JPG", "FloorPlanV2/7.JPG", "FloorPlanV2/8.JPG", "FloorPlanV2/9.JPG"],
+      technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB, Technologies.Nginx, Technologies.PM2],
       type: "Website Template"
     },
     {
@@ -98,7 +110,7 @@ export const PersonalProjects: PersonalProjectsParams = {
     },
     {
       color: '#1181d1',
-      description: ["Current project your viewing", "Technologies: Svelte, JavaScript, TypeScript, Tailwindcss"],
+      description: ["Current website", "Technologies: Svelte, JavaScript, TypeScript, Tailwindcss"],
       links: [{ to: 'https://github.com/adrian52x/Portfolio', label: 'GitHub' }],
       logo: Assets.Svelte,
       name: "Personal Portfolio",
@@ -161,7 +173,12 @@ export const ProfessionalCareerParams: CareerParams = {
   items: [
     {
     company: { logo: Assets.Unknown, name: '' },
-    description: ["Currently developing `Digital Floor Plan 2D` for AGC Biologics"],
+    description: [
+      "Currently developing `Digital Floor Plan 2D` for AGC Biologics",
+      "Frontend",
+      "Backend",
+      "DevOps"
+    ],
     employmentType: EmploymentType.Freelance,
     industry: 'Software Development',
     location: 'Denmark',
