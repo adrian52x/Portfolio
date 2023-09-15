@@ -38,7 +38,7 @@ export const PersonalProjects: PersonalProjectsParams = {
         "Admin panel - CRUD for all entities", 
         "Data visualization of each room & add/remove items in the room", 
         "Reactive / real-time search functionality: Based on search input, it will give a list of instruments that are located on that specific floor and will highlight the rooms that contains those instruments.", 
-        "Etc. ..."
+        "Project demonstration (video) --->  https://screenpal.com/watch/c0Qo3pVCaPH " 
         ],
       links: [{ to: 'https://github.com/adrian52x/Floor-plan_v2', label: 'Frontend' }, { to: 'https://github.com/adrian52x/Floor-Plan_backend', label: 'Backend' }],
       logo: Assets.Svelte,
@@ -226,5 +226,5 @@ export const DocsParams: DocsPageParams = {
   title: 'Docs',
   cv: 'docs/Adrian_Enachi_CV_.pdf',
   diploma: 'docs/Diploma.pdf',
-  docsUpdatedOn: new Date(2023, 6, 1) // 18 March 2023
+  docsUpdatedOn: new Date(2023, 8, 4) // 4 Sep 2023
 }
