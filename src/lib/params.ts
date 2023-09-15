@@ -31,7 +31,7 @@ export const PersonalProjects: PersonalProjectsParams = {
         "Frontend: Svelte, HTML, Tailwindcss", 
         "Backend: NodeJS, ExpressJS", 
         "Database: MongoDB",
-        "Other tools: Ubuntu, NGINX, PM2, Lunacy(UI/UX) ",
+        "Other tools: Ubuntu, Git, NGINX, PM2, Lunacy(UI/UX) ",
         "", "Features", "",
         "Interactive 2D floor plan",  
         "Departments view", 
