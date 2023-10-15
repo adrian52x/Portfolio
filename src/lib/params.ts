@@ -28,6 +28,26 @@ export const PersonalProjects: PersonalProjectsParams = {
     {
       color: '#1181d1',
       description: [
+        "Frontend: Next.js (React), HTML, Tailwindcss", 
+        "Backend: NodeJS, ExpressJS", 
+        "Database: MongoDB",
+        " ",
+        "Startup project",
+        "In progress...",  
+        ],
+      links: [],
+      logo: Assets.ReactJs,
+      name: "Startup project",
+      period: {
+        from: new Date(2023, 9)
+      },
+      images: [],
+      technologies: [Technologies.ReactJs, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: [
         "Frontend: Svelte, HTML, Tailwindcss", 
         "Backend: NodeJS, ExpressJS", 
         "Database: MongoDB",
@@ -174,7 +194,7 @@ export const ProfessionalCareerParams: CareerParams = {
     {
     company: { logo: Assets.Unknown, name: '' },
     description: [
-      "Currently developing `Digital Floor Plan 2D` for AGC Biologics",
+      "Developed `Digital Floor Plan 2D` for AGC Biologics",
       "Frontend",
       "Backend",
       "DevOps"
@@ -182,7 +202,7 @@ export const ProfessionalCareerParams: CareerParams = {
     employmentType: EmploymentType.Freelance,
     industry: 'Software Development',
     location: 'Denmark',
-    period: { from: new Date(2023, 1) },
+    period: { from: new Date(2023, 1), to: new Date(2023, 8) },
     skills: [Technologies.JavaScript, Technologies.Svelte, Technologies.NodeJs, Technologies.Tailwind, Technologies.MongoDB],
     title: 'Software developer'
   },
@@ -226,5 +246,5 @@ export const DocsParams: DocsPageParams = {
   title: 'Docs',
   cv: 'docs/Adrian_Enachi_CV_.pdf',
   diploma: 'docs/Diploma.pdf',
-  docsUpdatedOn: new Date(2023, 8, 4) // 4 Sep 2023
+  docsUpdatedOn: new Date(2023, 9, 15) // 4 Sep 2023
 }

@@ -113,16 +113,17 @@
 			display: flex;
 		}
 		&-images {
+			
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(4, 1fr);
 			gap: 20px;
 			padding: 0px 10px;
 
 			@media (max-width: 1350px) {
-				grid-template-columns: repeat(3, 1fr);
+				grid-template-columns: repeat(5, 1fr);
 			}
 			@media (max-width: 850px) {
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: repeat(3, 1fr);
 			}
 		}
 
@@ -154,7 +155,7 @@
 	}
 
 	.image-showcase {
-		width: 250px;
-		height: 120px;
+		width: 100px;
+		height: 60px;
 	}
 </style>
