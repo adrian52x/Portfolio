@@ -14,12 +14,12 @@ export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'I am a highly motivated computer scientist graduate with a strong passion for the IT industry, always eager to learn and adapt to new technologies. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team. With my strong organizational abilities, I have successfully managed multiple academic projects, and I am committed to utilizing my skills to contribute to the mission of any company and help others along the way.',
+  description: 'I am a highly motivated computer scientist with a strong passion for the IT industry, always eager to learn and adapt to new technologies. I have good communication, problem-solving and organizational skillsalong with analytical thinking. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team.Strong organizational abilities with proven successes managing multiple academic projects, as well as successfully managed and developed a real project for a company. At least 2+ years of full-stack development.',
   links: {
     github: 'https://github.com/adrian52x',
     linkedin: 'https://www.linkedin.com/in/adrian-enachi-314955205/'
   },
-  skills: [Technologies.JavaScript, Technologies.HTML, Technologies.CSS,  Technologies.Svelte,  Technologies.NodeJs,  Technologies.Java,  Technologies.SpringBoot, Technologies.Docker,  Technologies.MySQL,  Technologies.MongoDB,  Technologies.ML]
+  skills: [Technologies.ReactJs, Technologies.JavaScript, Technologies.HTML, Technologies.CSS,  Technologies.Svelte,  Technologies.NodeJs,  Technologies.Java,  Technologies.SpringBoot, Technologies.Docker,  Technologies.MySQL,  Technologies.MongoDB,  Technologies.ML]
 }
 
 export const PersonalProjects: PersonalProjectsParams = {
@@ -31,15 +31,18 @@ export const PersonalProjects: PersonalProjectsParams = {
         "Frontend: Next.js (React), HTML, Tailwindcss", 
         "Backend: NodeJS, ExpressJS", 
         "Database: MongoDB",
+        "Webhooks: Stripe",
+        "OAuth: Google",
         " ",
         "Startup project",
-        "In progress...",  
+        "In progress...",
+        "Project demo --->  https://ask-share.netlify.app/ "  
         ],
       links: [],
       logo: Assets.ReactJs,
       name: "Startup project",
       period: {
-        from: new Date(2023, 9)
+        from: new Date(2023, 8)
       },
       images: [],
       technologies: [Technologies.ReactJs, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
@@ -64,7 +67,8 @@ export const PersonalProjects: PersonalProjectsParams = {
       logo: Assets.Svelte,
       name: "Digital Floor Plan 2D v2",
       period: {
-        from: new Date(2023, 4)
+        from: new Date(2023, 4),
+        to: new Date(2023, 8)
       },
       images: [ "FloorPlanV2/10.JPG", "FloorPlanV2/1.JPG", "FloorPlanV2/2.JPG", "FloorPlanV2/3.JPG", "FloorPlanV2/4.jpg", "FloorPlanV2/5.JPG", "FloorPlanV2/6.JPG", "FloorPlanV2/7.JPG", "FloorPlanV2/8.JPG", "FloorPlanV2/9.JPG"],
       technologies: [Technologies.Svelte, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB, Technologies.Nginx, Technologies.PM2],
@@ -195,14 +199,12 @@ export const ProfessionalCareerParams: CareerParams = {
     company: { logo: Assets.Unknown, name: '' },
     description: [
       "Developed `Digital Floor Plan 2D` for AGC Biologics",
-      "Frontend",
-      "Backend",
-      "DevOps"
+      "Developing a startup project (Demo: https://ask-share.netlify.app )",
     ],
     employmentType: EmploymentType.Freelance,
     industry: 'Software Development',
     location: 'Denmark',
-    period: { from: new Date(2023, 1), to: new Date(2023, 8) },
+    period: { from: new Date(2022, 10) },
     skills: [Technologies.JavaScript, Technologies.Svelte, Technologies.NodeJs, Technologies.Tailwind, Technologies.MongoDB],
     title: 'Software developer'
   },
@@ -244,7 +246,7 @@ export const ProfessionalCareerParams: CareerParams = {
 
 export const DocsParams: DocsPageParams = {
   title: 'Docs',
-  cv: 'docs/Adrian_Enachi_CV_.pdf',
+  cv: 'docs/CV_-_Adrian_Enachi_.pdf',
   diploma: 'docs/Diploma.pdf',
-  docsUpdatedOn: new Date(2023, 9, 15) // 4 Sep 2023
+  docsUpdatedOn: new Date(2024, 0, 10) // 4 Sep 2023
 }
