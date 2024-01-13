@@ -14,7 +14,7 @@ export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'I am a highly motivated computer scientist with a strong passion for the IT industry, always eager to learn and adapt to new technologies. I have good communication, problem-solving and organizational skillsalong with analytical thinking. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team.Strong organizational abilities with proven successes managing multiple academic projects, as well as successfully managed and developed a real project for a company. At least 2+ years of full-stack development.',
+  description: 'I am a highly motivated computer scientist with a strong passion for the IT industry, always eager to learn and adapt to new technologies. I have good communication, problem-solving and organizational skillsalong with analytical thinking. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team.Strong organizational abilities with proven successes managing multiple academic projects, as well as successfully managed and developed a real project for a company. 1-2 years of full-stack development.',
   links: {
     github: 'https://github.com/adrian52x',
     linkedin: 'https://www.linkedin.com/in/adrian-enachi-314955205/'
