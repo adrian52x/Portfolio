@@ -16,19 +16,19 @@
 </svelte:head>
 <div />
 <MainTitle>{title}</MainTitle>
-<div class="docs">Last time updated : <b>{docsUpdatedOnDisplay}</b></div>
+<!-- <div class="docs">Last time updated : <b>{docsUpdatedOnDisplay}</b></div> -->
 <div class="docs">
-	{#if cv}
+	<!-- {#if cv}
 		<a href={cv} target="_blank" rel="noreferrer">
 			<Chip label="CV" size={'1.5em'} />
 		</a>
 	{:else}
 		<Chip label="Ooops! no CV at the moment." />
-	{/if}
+	{/if} -->
 
 	{#if diploma}
 		<a href={diploma} target="_blank" rel="noreferrer">
-			<Chip label="Diploma" size={'1.5em'} />
+			<Chip label="Diploma / Transcript of records" size={'1.5em'} />
 		</a>
 	{:else}
 		<Chip label="Ooops! no Diploma at the moment." />
