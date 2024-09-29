@@ -47,5 +47,6 @@ export default {
   Premiere: { logo: Assets.Premiere, name: 'Adobe Premiere Pro' },
   Nginx: { logo: Assets.Electron, name: 'Nginx' },
   PM2: { logo: "", name: 'PM2' },
+  PHP: { logo: "", name: 'PHP' },
 };
 

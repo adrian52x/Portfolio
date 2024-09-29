@@ -14,7 +14,11 @@ export const Home: HomeParams = {
   title: 'Home Page',
   name: 'Adrian',
   lastName: 'Enachi',
-  description: 'I am a highly motivated computer scientist with a strong passion for the IT industry, always eager to learn and adapt to new technologies. I have good communication, problem-solving and organizational skillsalong with analytical thinking. Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team.Strong organizational abilities with proven successes managing multiple academic projects, as well as successfully managed and developed a real project for a company. 1-2 years of full-stack development.',
+  description: `I am a highly motivated computer scientist with a strong passion for the IT industry, 
+  always eager to learn and adapt to new technologies. 
+  Creative problem-solver with a knack for thinking outside the box, curious by nature and committed to continuous learning. 
+  Possessing a detail-oriented mindset, I am capable of working effectively both independently and in a team. 
+  Strong organizational abilities with proven successes managing multiple academic projects and within the workplace.`,
   links: {
     github: 'https://github.com/adrian52x',
     linkedin: 'https://www.linkedin.com/in/adrian-enachi-314955205/'
@@ -28,6 +32,21 @@ export const PersonalProjects: PersonalProjectsParams = {
     {
       color: '#1181d1',
       description: [
+        "Details soon..."
+        ],
+      links: [{ to: 'https://github.com/adrian52x/Travel-Destinations', label: 'Github' }],
+      logo: Assets.JavaScript,
+      name: "Travel-Destinations",
+      period: {
+        from: new Date(2024, 8)
+      },
+      images: [],
+      technologies: [Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.MongoDB],
+      type: "Website Template"
+    },
+    {
+      color: '#1181d1',
+      description: [
         "Frontend: Next.js (React), HTML, Tailwindcss", 
         "Backend: NodeJS, ExpressJS", 
         "Database: MongoDB",
@@ -35,14 +54,15 @@ export const PersonalProjects: PersonalProjectsParams = {
         "OAuth: Google",
         " ",
         "Startup project",
-        "In progress...",
-        "Project demo --->  https://ask-share.netlify.app/ "  
+        "Project demo --->  https://ask-share.netlify.app/ ",
+        "Project on hold..."  
         ],
-      links: [],
+      links: [{ to: 'https://github.com/adrian52x/Mentors-Marketplace-startup-', label: 'Github' }],
       logo: Assets.ReactJs,
-      name: "Startup project",
+      name: "Mentors-Marketplace - Startup project",
       period: {
-        from: new Date(2023, 8)
+        from: new Date(2023, 11),
+        to: new Date(2024, 2)
       },
       images: [],
       technologies: [Technologies.ReactJs, Technologies.JavaScript, Technologies.NodeJs, Technologies.ExpressJs, Technologies.HTML, Technologies.CSS, Technologies.Tailwind, Technologies.MongoDB],
@@ -196,17 +216,32 @@ export const ProfessionalCareerParams: CareerParams = {
   title: 'Professional Experience',
   items: [
     {
-    company: { logo: Assets.Unknown, name: '' },
+      company: { logo: Assets.Unknown, name: 'Scaletronic' },
+      description: [
+        "Built and maintained server-side applications using Node.js",
+        "Designed and implemented complex automation workflows using Node-RED.",
+        "Conducted unit testing using Mocha/Jest",
+        "Managed deployment processes with CI/CD pipelines and GitHub Actions.",
+        "Performed system administration tasks on Debian, including shell scripting.",
+      ],
+      employmentType: EmploymentType.FullTime,
+      industry: 'Software Development',
+      location: 'Skovlunde, Denmark',
+      period: { from: new Date(2024, 2), to: new Date(2024, 8)},
+      skills: [Technologies.TypeScript, Technologies.NodeJs, Technologies.Docker, Technologies.MySQL],
+      title: 'Software Engineer'
+    },
+    {
+    company: { logo: Assets.AgcBio, name: 'AGC Biologics' },
     description: [
       "Developed `Digital Floor Plan 2D` for AGC Biologics",
-      "Developing a startup project (Demo: https://ask-share.netlify.app )",
     ],
-    employmentType: EmploymentType.Freelance,
+    employmentType: EmploymentType.Contract,
     industry: 'Software Development',
-    location: 'Denmark',
-    period: { from: new Date(2022, 10) },
+    location: 'Soeborg, Denmark',
+    period: { from: new Date(2023, 1), to: new Date(2024, 2)},
     skills: [Technologies.JavaScript, Technologies.Svelte, Technologies.NodeJs, Technologies.Tailwind, Technologies.MongoDB],
-    title: 'Software developer'
+    title: 'Software Engineer'
   },
   {
     company: { logo: Assets.AgcBio, name: 'AGC Biologics' },
@@ -220,12 +255,25 @@ export const ProfessionalCareerParams: CareerParams = {
     employmentType: EmploymentType.PartTime,
     industry: 'Software Development',
     location: 'Soeborg, Denmark',
-    period: { from: new Date(2022, 2) },
+    period: { from: new Date(2022, 2), to: new Date(2023, 1)},
     skills: [],
-    title: 'IT Support'
+    title: 'IT Support - Student Assistant'
   },
   {
-    company: { logo: Assets.NewBanking, name: 'NewBanking Identity' },
+    company: { logo: Assets.Unknown, name: 'Walor' },
+    description: [
+      "Developed an admin dashboard for clients using PHP (Laravel) and React", 
+      "Integrated RESTful APIs."
+    ],
+    employmentType: EmploymentType.Internship, 
+    industry: 'Software Development',
+    location: 'Copenhagen, Denmark',
+    period: { from: new Date(2024, 0), to: new Date(2024, 1)},
+    skills: [Technologies.PHP, Technologies.ReactJs, Technologies.MySQL, Technologies.CSS, Technologies.HTML],
+    title: 'Software Engineer'
+  },
+  {
+    company: { logo: Assets.NewBanking, name: 'NewBanking Identity -- (new company name: Meo)' },
     description: [
       "Implementing new features", 
       "E2E testing",
@@ -239,7 +287,7 @@ export const ProfessionalCareerParams: CareerParams = {
     location: 'Copenhagen, Denmark',
     period: { from: new Date(2022, 7), to: new Date(2022, 9)},
     skills: [Technologies.JavaScript, Technologies.VueJs, Technologies.MySQL, Technologies.CSS, Technologies.HTML],
-    title: 'Frontend Developer'
+    title: 'Software Engineer'
   },
 ]
 }
